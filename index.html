@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title></title>
+</head>
+
+<body>
+    <Rex configuration='{
+        "appTitle": "Bienvenido a RexJS",
+        "data": {
+            "saludo" : "Este es un ejemplo de saludo!!"
+        }
+    }'>
+        <h1>{{saludo}}</h1>
+        <p rex-element="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem sunt perferendis distinctio mollitia,
+           dolor pariatur numquam nam maiores, suscipit voluptas illo laudantium cumque provident ex voluptatibus? 
+           Vitae, nemo cum. Tenetur?</p>
+        <button rex-click="onClickButton()">Hazme click</button>
+    </Rex>
+
+    <script src="src/js/Rex.js"></script>
+</body>
+
+</html>
